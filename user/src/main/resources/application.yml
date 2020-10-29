@@ -1,0 +1,12 @@
+spring:
+  dubbo:
+    application:
+      name: user-provider
+    registry:
+      address: zookeeper://127.0.0.1:2182
+    protocol:
+      name: dubbo
+      port: 20883
+    scan: com.jz.user.service
+  profiles:
+    active: @profileActive@
