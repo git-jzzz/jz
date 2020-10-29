@@ -45,13 +45,13 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 <!--普通jar - 可执行jar-->
-            <plugin>
+      <!--      <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <classifier>exec</classifier>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
         </plugins>
     </build>
