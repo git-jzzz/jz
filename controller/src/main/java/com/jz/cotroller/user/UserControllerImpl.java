@@ -28,6 +28,6 @@ public class UserControllerImpl implements UserController {
     @Override
     @GetMapping("/hello")
     public Result hello() {
-        return ResultUtils.success("hello -- jenkins success");
+        return ResultUtils.success("hello -- jenkins success \n区分模块构建测试");
     }
 }
